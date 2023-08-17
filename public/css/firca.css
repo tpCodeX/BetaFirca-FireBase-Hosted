@@ -1695,5 +1695,5 @@ blockquote::before {
   padding-bottom: 7px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }

@@ -1684,3 +1684,11 @@ blockquote::before {
   }
 }
 
+.donation-info{
+  /* background-color: #7c7d7d1c; */
+  background-color: var(--section-bg-color);
+  text-align: left;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 100px;
+}

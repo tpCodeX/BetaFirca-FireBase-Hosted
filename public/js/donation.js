@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     donateButton.addEventListener("click", function() {
-        const nameInput = document.getElementById("donation-name");
-        const emailInput = document.getElementById("donation-email");
+       // const nameInput = document.getElementById("donation-name");
+        //const emailInput = document.getElementById("donation-email");
 
-        if (nameInput.value && emailInput.checkValidity()) {
+        //if (nameInput.value && emailInput.checkValidity()) {
             // Mostrar la información de la cuenta bancaria
             bankInfo.style.display = "block";
-        } else {
-            alert("Por favor, completa tu nombre y correo electrónico antes de continuar.");
-        }
+        //} else {
+          //  alert("Por favor, completa tu nombre y correo electrónico antes de continuar.");
+       // }
     });
 });
 

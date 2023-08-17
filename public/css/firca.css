@@ -676,8 +676,9 @@ strong {
   height: 300px;
   display: block;
   margin: auto;
-  border-radius: 25% 10%;
-  transition: all 0.5s;
+  border-radius: 10% 10%;
+  transition: all 0.1s;
+  object-fit: cover;
 }
 
 
@@ -725,6 +726,7 @@ strong {
 }
 #carousel-proyect img{
   height: 100vh;
+  object-fit: cover;
 }
 
 

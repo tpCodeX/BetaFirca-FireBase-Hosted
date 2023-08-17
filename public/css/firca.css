@@ -1690,5 +1690,10 @@ blockquote::before {
   text-align: left;
   border-radius: 10px;
   padding-left: 30px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

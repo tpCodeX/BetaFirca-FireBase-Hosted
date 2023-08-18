@@ -1704,3 +1704,9 @@ blockquote::before {
   color: rgb(195, 64, 93);
   -webkit-text-stroke: rgb(0, 0, 0) .5px;
 }
+
+.bank-info{
+  background-color: #567c8032;
+  padding: 2em;
+  border-radius: 20px;
+}

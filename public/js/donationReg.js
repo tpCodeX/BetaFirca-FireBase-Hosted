@@ -1,1 +1,0 @@
-const provider = new firebase.auth.Provider.googleAuthProvider();

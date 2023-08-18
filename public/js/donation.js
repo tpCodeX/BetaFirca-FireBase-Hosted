@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   treeInput.addEventListener("input", function () {
     const numTrees = parseInt(treeInput.value);
-    const treePrice = 1000;
+    const treePrice = 1500;
     const donationTotal = numTrees * treePrice;
 
     totalAmount.textContent = `Total a Abonar: $${donationTotal} Pesos Argentinos`;
